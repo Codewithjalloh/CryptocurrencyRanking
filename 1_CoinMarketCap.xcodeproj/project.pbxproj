@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		5861DC2E202A564700975827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861DC2D202A564700975827 /* AppDelegate.swift */; };
-		5861DC30202A564700975827 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861DC2F202A564700975827 /* ViewController.swift */; };
 		5861DC33202A564700975827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5861DC31202A564700975827 /* Main.storyboard */; };
 		5861DC35202A564700975827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5861DC34202A564700975827 /* Assets.xcassets */; };
 		5861DC38202A564700975827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5861DC36202A564700975827 /* LaunchScreen.storyboard */; };
+		5861DC40202A569900975827 /* CoinMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861DC3F202A569900975827 /* CoinMarket.swift */; };
+		5861DC42202A586A00975827 /* CoinMarketTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861DC41202A586A00975827 /* CoinMarketTableViewController.swift */; };
+		5888EBDF202A6707001EFFCA /* CoinCapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5888EBDE202A6707001EFFCA /* CoinCapTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5861DC2A202A564700975827 /* 1_CoinMarketCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1_CoinMarketCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5861DC2D202A564700975827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5861DC2F202A564700975827 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5861DC32202A564700975827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5861DC34202A564700975827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5861DC37202A564700975827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5861DC39202A564700975827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5861DC3F202A569900975827 /* CoinMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarket.swift; sourceTree = "<group>"; };
+		5861DC41202A586A00975827 /* CoinMarketTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketTableViewController.swift; sourceTree = "<group>"; };
+		5888EBDE202A6707001EFFCA /* CoinCapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCapTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				5861DC2D202A564700975827 /* AppDelegate.swift */,
-				5861DC2F202A564700975827 /* ViewController.swift */,
+				5861DC41202A586A00975827 /* CoinMarketTableViewController.swift */,
+				5888EBDE202A6707001EFFCA /* CoinCapTableViewCell.swift */,
 				5861DC31202A564700975827 /* Main.storyboard */,
+				5861DC3F202A569900975827 /* CoinMarket.swift */,
 				5861DC34202A564700975827 /* Assets.xcassets */,
 				5861DC36202A564700975827 /* LaunchScreen.storyboard */,
 				5861DC39202A564700975827 /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5861DC30202A564700975827 /* ViewController.swift in Sources */,
+				5861DC42202A586A00975827 /* CoinMarketTableViewController.swift in Sources */,
+				5888EBDF202A6707001EFFCA /* CoinCapTableViewCell.swift in Sources */,
+				5861DC40202A569900975827 /* CoinMarket.swift in Sources */,
 				5861DC2E202A564700975827 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
